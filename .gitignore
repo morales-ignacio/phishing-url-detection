@@ -1,0 +1,13 @@
+# RStudio / R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# dataset (download it from Mendeley Data)
+data/*.csv
