@@ -1,0 +1,14 @@
+"variable","criterion","value","other_variable","gini"
+"is_ip","Near-zero variance",0.999851229218581,NA,NA
+"has_at","Near-zero variance",0.998276738448569,NA,NA
+"qm_cnt","Pearson correlation",0.995493888583425,"has_query",NA
+"url_len","Pearson correlation",0.980281504955978,"letter_cnt",NA
+"path_len","Pearson correlation",0.958823477760659,"path_ratio",NA
+"query_len","Pearson correlation",0.938512651524893,"has_query",NA
+"digit_cnt","Pearson correlation",0.925313678016474,"digit_ratio",NA
+"under_cnt","Relevance (Spearman)",0.0537911377187496,NA,0.0108127687260062
+"letter_ratio","VIF",Inf,NA,NA
+"letter_cnt","VIF",97.7174809523609,NA,NA
+"special_cnt","VIF",22.754715947781,NA,NA
+"domain_ratio","VIF",20.7937215119519,NA,NA
+"eq_cnt","VIF",12.4890441419858,NA,NA

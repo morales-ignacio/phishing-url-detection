@@ -1,0 +1,69 @@
+"key","value","text"
+"n_initial",116600,NA
+"n_invalid_label",0,NA
+"n_conflict",0,NA
+"n_duplicates",1369,NA
+"n_impossible",0,NA
+"n_missing",0,NA
+"n_final",115231,NA
+"n_phishing",16590,NA
+"n_legitimate",98641,NA
+"share_phishing",0.143971674289037,NA
+"n_domains",90858,NA
+"max_per_domain",2455,NA
+"top_domain",NA,"weebly.com"
+"n_train",80661,NA
+"n_test",34570,NA
+"share_phishing_train",0.143935731022427,NA
+"share_phishing_test",0.144055539485103,NA
+"domains_train",63603,NA
+"domains_test",27255,NA
+"https_legitimate",0.349813905664029,NA
+"https_phishing",0.914298018949181,NA
+"n_sample_plots",20000,NA
+"n_candidates",27,NA
+"n_dropped_variance",2,NA
+"dropped_variance",NA,"is_ip, has_at"
+"n_dropped_cor",5,NA
+"dropped_cor",NA,"qm_cnt, url_len, path_len, query_len, digit_cnt"
+"n_after_filters",20,NA
+"rho_top",NA,"digit_ratio, entropy, is_https"
+"rho_max",0.510392214272447,NA
+"gini_top",NA,"domain_ratio, digit_ratio, entropy"
+"n_relevant",19,NA
+"not_relevant",NA,"under_cnt"
+"n_dropped_vif",5,NA
+"dropped_vif",NA,"letter_ratio, letter_cnt, special_cnt, domain_ratio, eq_cnt"
+"n_selected",14,NA
+"selected",NA,"dom_len, tld_len, subdom_cnt, amp_cnt, dot_cnt, dash_cnt, digit_ratio, spec_ratio, is_https, slash_cnt, entropy, n_suspicious, has_query, path_ratio"
+"pca_k",9,NA
+"pca_cum_k",0.91174203810014,NA
+"pca_var_1",0.223832384816673,NA
+"pca_var_2",0.144321978608493,NA
+"n_compare",10000,NA
+"n_models",5,NA
+"best_model",NA,"Random Forest"
+"best_cv_auc",0.983010916726919,NA
+"second_model",NA,"Logistic regression"
+"second_cv_auc",0.961940418932596,NA
+"worst_model",NA,"Decision tree"
+"worst_cv_auc",0.777712709346767,NA
+"best_hyperparams",NA,"mtry = 2"
+"threshold",0.35,NA
+"accuracy",0.976511426091987,NA
+"sensitivity",0.886345381526104,NA
+"specificity",0.991686380533964,NA
+"precision",0.947210300429185,NA
+"f1",0.915767634854772,NA
+"auc",0.987842973787682,NA
+"tp",4414,NA
+"fn",566,NA
+"fp",246,NA
+"tn",29344,NA
+"gini_domains",0.208680127629895,NA
+"gini_domains_norm",0.208682424427364,NA
+"share_top1_domains",0.175768673360467,NA
+"share_single_url_domains",0.948733188051685,NA
+"logit_aic",23462.8453119358,NA
+"logit_top",NA,"dom_len"
+"logit_top_or",0.17892673130297,NA
